@@ -1,11 +1,3 @@
-# Ignore all files in the input and output folders
-data/input/*
-data/output/*
-
-# Allow the directories themselves to be tracked
-!data/input/
-!data/output/
-
 # Ignore the .DS_Store file
 .DS_Store
 
