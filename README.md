@@ -6,6 +6,7 @@ This repository contains a collection of Python scripts to automate common file 
 
 - **`scripts/`**: Contains Python scripts for various tasks.
   - `merge_csv.py`: Script to merge multiple CSV files from a specified input folder into a single CSV file.
+  - `generate_dummy_data.py`: Script to create dummy CSV files for testing purposes.
 - **`data/`**: Directory for input and output data files.
   - `input/`: Folder to store input CSV files.
   - `output/`: Folder where the merged output CSV file will be saved.
@@ -42,11 +43,21 @@ This repository contains a collection of Python scripts to automate common file 
     pip install pandas
     ```
 
-3. **Add Your Data 📊**
+3. **Generate Dummy Data 📝**
+
+    If you want to test the script, you can generate some dummy CSV data. Run the following script:
+
+    ```bash
+    python scripts/generate_dummy_data.py
+    ```
+
+    This will create two CSV files (data1.csv and data2.csv) in the data/input/ folder.
+
+4. **Add Your Data 📊**
 
     Drop all the CSV files you want to merge into the data/input/ folder. No need to worry about order — the script takes care of it!
 
-4. **Run the Script 🚴‍♂️**
+5. **Run the Script 🚴‍♂️**
 
     To merge all the CSV files in the data/input/ folder, use this command:
 
@@ -80,3 +91,11 @@ You can copy the entire block above and paste it directly into your `README.md` 
 
 Let me know if there’s anything else you need!
 ```
+
+### Changes Made
+
+1. **Added a New Section for Generating Dummy Data**: Explains how to use the `generate_dummy_data.py` script to create mock data.
+2. **Updated the Contents Section**: Included the `generate_dummy_data.py` script in the description.
+3. **Fixed Minor Formatting Issues**: Ensured consistent formatting throughout the README.
+
+Feel free to copy the updated content into your `README.md` file! Let me know if you need any more adjustments or help with anything else.
