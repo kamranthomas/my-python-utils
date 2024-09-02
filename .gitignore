@@ -1,0 +1,4 @@
+# Ignore data files contents
+./data/input/*
+./data/output/*
+
